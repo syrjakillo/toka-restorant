@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <title>Antipasta - TOKA Hotel & Restaurant</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: linear-gradient(-45deg, #0c1a2b, #1a2e4f, #0c1a2b);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      color: #f5f5f5;
+    }
+    @keyframes gradient {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    header {
+      text-align: center;
+      padding: 30px;
+      border-bottom: 2px solid #d4af37;
+      position: relative;
+    }
+    header img {
+      height: 100px;
+      margin-bottom: 10px;
+      animation: shine 1.5s ease-in-out forwards;
+    }
+    @keyframes shine {
+      0% { opacity: 0; transform: scale(0.8); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+    header h1 {
+      font-size: 40px;
+      color: #d4af37;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+    .menu-section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .menu-section h2 {
+      color: #d4af37;
+      font-size: 28px;
+      border-bottom: 1px solid #d4af37;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px dashed #444;
+      transition: all 0.3s ease;
+    }
+    .menu-item:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+      transform: scale(1.02);
+    }
+    .menu-item span {
+      color: #d4af37;
+    }
+    .reserve-button {
+      display: block;
+      width: fit-content;
+      margin: 40px auto;
+      padding: 12px 24px;
+      background-color: #1a2e4f;
+      color: #d4af37;
+      border: 2px solid #d4af37;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.7); }
+      70% { box-shadow: 0 0 0 10px rgba(212, 175, 55, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0); }
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #aaa;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://tokahotel.al/images/429913729.jpg" alt="TOKA Logo">
+    <h1>ANTIPASTA</h1>
+  </header>
+
+  <div class="menu-section" data-aos="fade-up">
+    <h2>Antipasta / Appetizers</h2>
+
+    <div class="menu-item"><div>Bukë e shtëpisë me gjalpë / Homemade Bread with Butter</div><span>250 leke / 2.5€</span></div>
+    <div class="menu-item"><div>Antipastë e shtëpisë / Homemade Antipasto<br><small>(salca, djathëra, fruta të thata)</small></div><span>1000 leke / 10€</span></div>
+    <div class="menu-item"><div>Lakror në saç / Traditional Pie in Clay Pan</div><span>1000 leke / 10€</span></div>
+    <div class="menu-item"><div>Brusketa speciale / Special Bruschetta</div><span>250 leke / 2.5€</span></div>
+    <div class="menu-item"><div>Kërpudha zgare / Grilled Mushrooms</div><span>300 leke / 3€</span></div>
+    <div class="menu-item"><div>Qofte kungulli / Zucchini Balls</div><span>300 leke / 3€</span></div>
+    <div class="menu-item"><div>Petulla të fshira / Traditional Fried Pancakes</div><span>300 leke / 3€</span></div>
+    <div class="menu-item"><div>Patate të skuqura / French Fries</div><span>200 leke / 2€</span></div>
+    <div class="menu-item"><div>Kërpudha me pana / Mushrooms with Cream<br><small>(kërpudha, pana, kaçkavall, hudhër)</small></div><span>400 leke / 4€</span></div>
+    <div class="menu-item"><div>Djathë furre / Baked Cheese</div><span>400 leke / 4€</span></div>
+    <div class="menu-item"><div>Djathë dhie / Goat Cheese</div><span>450 leke / 4.5€</span></div>
+    <div class="menu-item"><div>Djathë lope / Cow Cheese</div><span>300 leke / 3€</span></div>
+    <div class="menu-item"><div>Djathë me petë / Cheese with Pastry<br><small>(djathë, mjaltë, petë sfoliat)</small></div><span>400 leke / 4€</span></div>
+    <div class="menu-item"><div>Kroketa / Croquettes</div><span>300 leke / 3€</span></div>
+    <div class="menu-item"><div>Saganaqi (kaçkavall) / Saganaki (Fried Cheese)</div><span>350 leke / 3.5€</span></div>
+    <div class="menu-item"><div>Xaxiqi / Tzatziki</div><span>300 leke / 3€</span></div>
+    <div class="menu-item"><div>Speca me gjizë / Peppers with Cottage Cheese</div><span>350 leke / 3.5€</span></div>
+    <div class="menu-item"><div>Salcë kosi / Yogurt Sauce</div><span>250 leke / 2.5€</span></div>
+    <div class="menu-item"><div>Tirokafteri / Spicy Cheese Cream</div><span>400 leke / 4€</span></div>
+
+  </div>
+
+  <a href="https://tokahotel.al/#contact" class="reserve-button">REZERVO TANI</a>
+
+  <footer>
+    © 2025 TOKA Hotel & Restaurant. Të gjitha të drejtat e rezervuara.
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

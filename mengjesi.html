@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <title>TOKA Hotel & Restaurant - Menu</title>
+  <link rel="stylesheet" href="mengjesi.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <img src="https://tokahotel.al/images/429913729.jpg" alt="TOKA Logo">
+    <h1>Mengjezi</h1>
+    <button class="menu-button" onclick="toggleMenu()">Shiko Menun</button>
+    <div class="menu-dropdown" id="menuDropdown">
+      <a href="mengjezi1.html">Mengjezi</a>
+      <a href="antipasta.html">Antipasta</a>
+      <a href="sallata.html">Sallata</a>
+      <a href="peshk.html">Peshk</a>
+      <a href="prodhime deti.html">Prodhime Deti</a>
+      <a href="supa.html">Supa/Pasta/Rizoto</a>
+      <a href="mish.html">Mish</a>
+    </div>
+  </header>
+
+  <div class="gallery">
+    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4npgLMMWAGAP_jYZktxavcCkgN71zR_TIstqmls3ZSoYRrO8wW-0LIWjKdQeI6V0vEMvN12DkSzUocO3pBO0dwN_8FGrKACZ7AIBXCS5E2XEd2w1V8l8B8bmaoP3UTrImg3_dAVx=w215-h280-p-k-no" alt="Pamje e restorantit" data-aos="fade-up">
+    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxlKQYty7pJ_YKq_JCm6TLbC16X-0QpJsJFCc7MkwlDgXSp7zHUtw68floZgHupKjvPw4nxpMs5n6HkO9231UODUBbPnvfnOAElC7GUji6Nwubi655lOthDC1EF0Y4_w5kcRArAzDwojL0=s1360-w1360-h1020-rw" alt="Pjatë e përgatitur" data-aos="fade-up">
+    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwYvdTBh2ukR2nB896TMKhDCNG3RMrq78zhw16ObsSEmvoNUqdaIuzwuLPV4MPhvV-bGA9x_f5SK0ryOHXdWNQ1JgVKhGUBNntWcegK4I_ooPsjtN-wLsnJEy1Uf2NJHifQp0DCErY89UCP=s1360-w1360-h1020-rw" alt="Ambient i brendshëm" data-aos="fade-up">
+  </div>
+
+  <div class="menu-section" data-aos="fade-up">
+    <h2>Mengjezi / Breakfast</h2>
+
+    <div class="menu-item"><div>Veze sy / Sunny Egg</div><span>250 leke / 2.5€</span></div>
+    <div class="menu-item"><div>Veze të zjera / Boiled Eggs</div><span>250 leke / 2.5€</span></div>
+    <div class="menu-item"><div>Veze të fërguara / Fried Eggs</div><span>250 leke / 2.5€</span></div>
+    <div class="menu-item"><div>Omlet / Omlette</div><span>350 leke / 3.5€</span></div>
+    <div class="menu-item"><div>Bukë e shtëpisë / Homemade Bread</div><span>250 leke / 2.5€</span></div>
+    <div class="menu-item"><div>Bukë e shtëpisë me Nutella / Homemade Bread with Nutella</div><span>200 leke / 2€</span></div>
+    <div class="menu-item"><div>Trahana Tradicionale / Traditional Porridge</div><span>200 leke / 2€</span></div>
+    <div class="menu-item"><div>Petulla Tradicionale / Traditional Pancake</div><span>200 leke / 2€</span></div>
+    <div class="menu-item"><div>Panacota / Panna Cotta</div><span>250 leke / 2.5€</span></div>
+    <div class="menu-item"><div>Tost / Toast</div><span>200 leke / 2€</span></div>
+    <div class="menu-item"><div>Briosh / Brioche</div><span>250 leke / 2.5€</span></div>
+  </div>
+
+  <a href="https://tokahotel.al/#contact" class="reserve-button">REZERVO TANI</a>
+
+  <footer>
+    © 2025 TOKA Hotel & Restaurant. Të gjitha të drejtat e rezervuara.
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    function toggleMenu() {
+      const menu = document.getElementById("menuDropdown");
+      menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <title>Mengjezi</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Georgia', serif;
+      background: url('https://tokahotel.al/images/94881822_254190535961802_9085453305471041536_n.jpg') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      overflow: hidden;
+      color: #f5f5f5;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.65);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 60px;
+      color: #d4af37;
+      margin-bottom: 20px;
+      letter-spacing: 3px;
+      animation: fadeIn 2s ease forwards;
+    }
+    p {
+      font-size: 22px;
+      max-width: 700px;
+      margin-bottom: 40px;
+      animation: fadeIn 3s ease forwards;
+    }
+    .enter-button {
+      padding: 14px 32px;
+      font-size: 18px;
+      background-color: transparent;
+      color: #d4af37;
+      border: 2px solid #d4af37;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      animation: fadeIn 4s ease forwards;
+      transition: all 0.3s ease;
+    }
+    .enter-button:hover {
+      background-color: #d4af37;
+      color: #1a2e4f;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 768px) {
+      h1 { font-size: 40px; }
+      p { font-size: 18px; }
+      .enter-button { font-size: 16px; padding: 12px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>TOKA HOTEL & RESTAURANT</h1>
+    <p>Mirë se vini në zemrën e shijes shqiptare. Një përvojë kulinare që bashkon traditën, natyrën dhe elegancën në çdo pjatë.</p>
+
+    <!-- Butoni që hap faqen mengjesi.html -->
+    <a href="mengjesi.html" class="enter-button">Shiko Menunë</a>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
